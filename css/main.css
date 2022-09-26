@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .main-container{
     font-family: 'Times New Roman', Times, serif;
     margin: none;
@@ -37,10 +41,9 @@
    
     .nav-bar {
        /* display: flex; */
-        margin: 0;
-        color: #fff;
-        width: 80%;
-        max-width: 1800px;
+        margin: auto;
+        width: 50%;
+        max-width: 2000px;
     }
     .nav-first-container{
         display: inline-flex;
@@ -75,5 +78,16 @@
       .dropdown:hover .dropdown-content {display: block;}
       .nav-last-container{
         display: inline-block;
-      }
+    }
+    .first-slide-parent, .second-slide-parent , .three-slide-parent{
+        text-align: center;
+    }
+    .first-slide-child{
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .first-slide-child p{
+        width: 50%;
+    }
 }
