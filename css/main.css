@@ -1,0 +1,34 @@
+.main-container{
+    font-family: 'Times New Roman', Times, serif;
+    margin: none;
+}
+.nav-first-container,.nav-last-container, .dropdown{
+    background-color: black;
+}
+.nav-first-container a, .nav-last-container a,.dropdown a{
+    color: white;
+    text-align: none;
+    padding: 12px 17px;
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-first-container a:not(:last-child){
+        display: none;
+    }
+    .nav-last-container a:not(:last-child){
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+    .icon{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin: 5px;
+        font-size: xx-large;
+    }
+}
